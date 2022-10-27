@@ -1,0 +1,232 @@
+* {
+    font-family: 'montserrat-black';
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    height: 650px;
+    z-index: 100;
+    overflow: hidden;
+}
+
+h1 {
+    size: 3.5rem;
+    line-height: 1.5rem;
+    font-size: 50px !important;
+    color: #ffffff;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+/* navigation Bar */
+.brand-name {
+    font-family: "ubuntu" !important;
+    font-size: 2.4rem !important;
+    font-weight: bolder !important;
+}
+
+.nav-link {
+    font-size: 30px;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image {
+    width: 60%;
+    height: 100%;
+    transform: rotate(25deg);
+}
+
+.image-container {
+    height: 700px;
+}
+
+/* features section */
+#features {
+    z-index: 1000;
+    padding: 7% 5%;
+    background-color: #fff;
+}
+
+.feature-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 15px;
+}
+
+.icon-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+h2 {
+
+    line-height: 1.5;
+    font-size: 3rem !important;
+}
+
+h3 {
+
+    font-size: 3rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* testimonial */
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* pricing */
+.ch {
+    width: 100%;
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.price {
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    font-size: small;
+    font-weight: light;
+    color: #080808;
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    width: 300px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: #b1b1b1;
+}
+
+/* pricing section */
+#pricing {
+    padding: 10px;
+}
+
+@media(max-width: 1028px) {
+    #title {
+        text-align: center;
+        height: 100%;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        margin: 0;
+        height: 50%;
+    }
+    .image-container {
+        height: 50%;
+    }
+}
+/* cta */
+#cta {
+    background-color: #ff4c68;
+    padding: 20px;
+}
+.cta-text {
+    font-size: 1.5rem !important;
+}
+
+.buttonwrap {
+    width: 100%;
+}
+
+.cta-items {
+    width: 200vh !important;
+}
+.cta-text {
+    font-size: 2.5rem !important;
+}
+
+.ctabutton {
+    width: 9rem;
+    height: 3rem;
+    border-radius: 12px 12px;
+    padding: 5px;
+    border: none;
+    margin-top: 20px;
+}
+.apple {
+    color: #fff;
+}
+
+@media(max-width: 1028px) {
+    .cta-items {
+        width: 50vh;
+    }
+    .cta-text {
+        font-size: 1.2rem !important;
+    }
+}
+
+/* footer */
+#footer {
+    padding: 8% 105;
+    margin: 3%;
+}
+
+.f-icons {
+    width: auto;
+    height: 100%;
+}
+
+.f-icons a {
+    margin: 0 4px;
+    font-size: 20px;
+}
